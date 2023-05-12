@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Playfair Display', serif;
     background-color: antiquewhite;
 }
 
@@ -26,12 +27,10 @@ body {
     transition: 0.1s;
 }
 
-
-
-.slide-container {
-    transform: translate(0, 30px);
+p {
+    margin-top: 30px;
 }
 
-.slide {
-
+#rangeName {
+    font-size: 20px;
 }
