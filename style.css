@@ -1,0 +1,18 @@
+#tbl {
+    border-collapse: collapse;
+}
+
+#tbl tr,
+#tbl td {
+    border: 1px solid black;
+    padding: 0px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+#tbl td:hover {
+    background-color: blueviolet;
+    transition: 0s;
+}
