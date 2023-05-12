@@ -11,7 +11,17 @@ function createGrid(size) {
     }
   }
 
+function trackSlider() {
+    rangeName.innerHTML = `${this.value} x ${this.value}`;
+}
+
 const tbl = document.getElementById("tbl");
 createGrid(16);
 
+let slide = document.getElementById("slide");
+let rangeName = document.getElementById("rangeName");
+rangeName.innerHTML = `${slide.value} x ${slide.value}`;
 
+slide.oninput = function() {
+    rangeName.innerHTML = `${this.value} x ${this.value}`;
+};
