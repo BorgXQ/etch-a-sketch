@@ -25,3 +25,13 @@ body {
     background-color: blueviolet;
     transition: 0.1s;
 }
+
+
+
+.slide-container {
+    transform: translate(0, 30px);
+}
+
+.slide {
+
+}
