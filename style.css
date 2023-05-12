@@ -1,18 +1,27 @@
-#tbl {
-    border-collapse: collapse;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
 }
 
-#tbl tr,
-#tbl td {
-    border: 1px solid black;
+#grid {
+    display: grid;
+    background-color: white;
+    grid-template-columns: auto auto auto;
+    box-shadow: -10px -10px 16px rgba(255, 255, 255, 0.1), 4px 4px 16px rgba(0, 0, 0, 0.2);
+    height: 300px;
+    width: 300px;
     padding: 0px;
-    height: 20px;
-    width: 20px;
-    cursor: pointer;
+    margin: 0px;
+}
+
+.grid-element {
+    border: 0px solid transparent;
     transition: 3s;
 }
 
-#tbl td:hover {
+.grid-element:hover {
     background-color: blueviolet;
-    transition: 0s;
+    transition: 0.1s;
 }
